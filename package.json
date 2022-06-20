@@ -1,0 +1,81 @@
+{
+    "name": "sonycovery",
+    "version": "2.2.0",
+    "description": "Customizable WhatsApp Bot",
+    "main": "index.js",
+    "type": "module",
+    "directories": {
+        "lib": "lib",
+        "src": "src",
+        "plugins": "plugins"
+    },
+    "scripts": {
+        "start": "node . --server --autoread --public --autocleartmp",
+        "test": "node test.js",
+        "test2": "nodemon index.js"
+    },
+    "keywords": [
+        "termux-whatsapp-bot"
+    ],
+    "homepage": "https://github.com/FadliDarmawan/haruno-md",
+    "author": {
+        "name": "SonyCovery"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FadliDarmawan/haruno-md.git"
+    },
+    "bugs": {
+        "url": "https://github.com/FadliDarmawan/haruno-md/issues"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@adiwajshing/baileys": "^4.1.0",
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "@bochilteam/scraper": "^2.0.0",
+        "awesome-phonenumber": "^3.0.2",
+        "axios": "^0.27.2",
+        "cfonts": "^3.1.0",
+        "chalk": "^5.0.1",
+        "cheerio": "^1.0.0-rc.11",
+        "colors": "1.4.0",
+        "esm": "3.2.25",
+        "express": "^4.18.1",
+        "file-type": "^17.1.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "formdata-node": "^4.3.2",
+        "human-readable": "^0.2.1",
+        "image-to-pdf": "^1.0.0",
+        "jsdom": "^19.0.0",
+        "lodash": "^4.17.21",
+        "lowdb": "^3.0.0",
+        "moment-timezone": "^0.5.33",
+        "mongoose": "github:Automattic/mongoose",
+        "nhentai-node-api": "^1.1.2",
+        "node-fetch": "^3.2.0",
+        "node-gtts": "^2.0.2",
+        "node-webpmux": "^3.1.1",
+        "perf_hooks": "^0.0.1",
+        "pino": "^7.8.0",
+        "pino-pretty": "^7.5.1",
+        "qrcode": "^1.5.0",
+        "qrcode-terminal": "^0.12.0",
+        "react-scripts": "3.4.1",
+        "readline": "^1.3.0",
+        "request": "^2.88.2",
+        "saucenao": "^0.0.2",
+        "scraper-tools": "^1.0.1",
+        "similarity": "^1.2.1",
+        "socket.io": "^4.4.1",
+        "syntax-error": "^1.4.0",
+        "terminal-image": "^2.0.0",
+        "url-regex-safe": "^3.0.0",
+        "xfarr-api": "^1.0.3",
+        "yargs": "^17.3.1",
+        "yt-search": "^2.10.3",
+        "zs-extract": "1.4.1"
+    },
+    "optionalDependencies": {
+        "wa-sticker-formatter": "^4.3.2"
+    }
+}
